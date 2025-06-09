@@ -45,4 +45,4 @@ This project is open for academic or personal use. No commercial rights reserved
 ### Author
 
 - Name: Tarun Arora
-- GitHub: https://github.com/arora-tarun
+- GitHub: https://github.com/Rahuldhanda001
