@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login -Patient Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Patient Tracker</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="book.html">Book Appointment</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="prescription.html">Prescription</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Login Form -->
+  <section class="form-section">
+    <h2>User Login</h2>
+    <form id="loginForm">
+      <label for="loginEmail">Email*</label>
+      <input type="email" id="loginEmail" name="loginEmail" required />
+
+      <label for="loginPassword">Password*</label>
+      <input type="password" id="loginPassword" name="loginPassword" required />
+
+      <button type="submit" class="btn">Login</button>
+    </form>
+    <p id="loginMessage" class="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 PatientCare+. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

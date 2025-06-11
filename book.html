@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Appointment - Patient Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Patient Tracker+</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="book.html">Book Appointment</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="prescription.html">Prescription</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Appointment Form -->
+  <section class="form-section">
+    <h2>Book an Appointment</h2>
+    <form id="appointmentForm">
+      <label for="doctor">Select Doctor*</label>
+      <select id="doctor" name="doctor" required>
+        <option value="">-- Choose a doctor --</option>
+        <option value="Dr. Sharma">Dr. Sharma - Cardiologist</option>
+        <option value="Dr. Patel">Dr. Patel - Dermatologist</option>
+        <option value="Dr. Khan">Dr. Khan - General Physician</option>
+        <option value="Dr. Mehra">Dr. Mehra - Neurologist</option>
+      </select>
+
+      <label for="date">Select Date*</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">Select Time*</label>
+      <input type="time" id="time" name="time" required />
+
+      <button type="submit" class="btn">Book Appointment</button>
+    </form>
+    <p id="appointmentMessage" class="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 . All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
