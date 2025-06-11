@@ -32,7 +32,7 @@ log in, book appointments, and view sample prescriptions — all from a simple, 
 ## 🚀 How to Run
 
 1. Clone the repository:
-git clone https://github.com/Rahuldhanda001/Patient-Tracker.git
+git clone https://github.com/devesh816867/Patient-Tracker.git
 
 3. Open `index.html` in your browser or use a live server extension in VS Code.
 
@@ -44,5 +44,5 @@ This project is open for academic or personal use. No commercial rights reserved
 
 ### Author
 
-- Name: Tarun Arora
-- GitHub: https://github.com/Rahuldhanda001
+- Name: Devesh Kumar
+- GitHub: https://github.com/devesh816867/Patient-Tracker.git
